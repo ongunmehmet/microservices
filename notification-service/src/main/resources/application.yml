@@ -1,0 +1,15 @@
+# suppress inspection "UnusedProperty" for whole file
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+   application:
+      name: notificationservice
+   config:
+      enabled: true
+      import: "configserver:http://localhost:8888"
+
+
+

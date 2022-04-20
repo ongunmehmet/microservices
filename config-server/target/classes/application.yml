@@ -1,0 +1,22 @@
+# suppress inspection "UnusedProperty" for whole file
+
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  main:
+    banner-mode: off
+  cloud.config.server.git.uri: https://github.com/ongunmehmet/config-server.git
+#          clone-on-start: true
+          #name:
+          #password:
+#          label: main
+
+
+
+
+
+
+
+
